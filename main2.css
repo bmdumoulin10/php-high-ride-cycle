@@ -1,0 +1,465 @@
+/*setting the navbar styles*/
+body{
+  margin: 0;
+}
+
+.genFont{
+  font-family: 'Graduate';
+}
+
+.navigationBar{
+  height: 125px;
+  background-color: black;
+  width: 100%;
+}
+
+/*this is the ul*/
+.navList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: inline-block;
+}
+
+li{
+  float: left;
+}
+
+/*this is li a*/
+.navFont{
+  font-family: 'Graduate';
+  font-size: 22px;
+  display: block;
+  color: #d9d9d9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navFont:hover {
+    color: #972563;
+}
+
+.teamNav{
+  line-height: 25px;
+}
+
+.teamBackgroundColor{
+  background-color: #EAEAEA;
+}
+
+.teamHeader{
+  text-align: center;
+  font-family: 'Graduate';
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.aboutHeading{
+  padding-top: 15px;
+}
+
+.aboutTextBox{
+  background-color: #ebeced;
+  border-radius: 10px;
+  width: 40%;
+  opacity: .7;
+  margin: 0 auto;
+}
+
+.teamPics{
+  display: inline-block;
+  margin: 10px;
+}
+
+.contact{
+  text-align: center;
+  vertical-align: top;
+}
+
+.questions{
+  background-color: #666666;
+  width: 350px;
+  border-radius: 10px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.contactInfo{
+  display: inline-block;
+  margin-top: 86px;
+}
+
+form{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.textArea{
+  width: 98%;
+  height: 150px;
+}
+
+.questionsButton{
+  height: 35px;
+  width: 125px;
+  background-color: black;
+  border-color: black;
+  opacity: .6;
+  border-radius: 5px;
+  font-family: 'Graduate';
+  color: #972563;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.questionsButton:hover{
+  color: #0556a5;
+}
+
+.info{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.mapLink{
+  text-decoration: none;
+  color: black;
+}
+
+.facebook{
+  margin: 7px 7px 7px 0px;
+}
+.insta{
+  margin: 7px;
+}
+
+.faqWindow{
+  background-color: #666666;
+  width: 70%;
+  display: inline-block;
+  margin-top: 86px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.faqRow{
+  text-align: center;
+}
+
+.faqContainer{
+  background-color: #666666;
+  width: 200px;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.faqFont{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faqTitle{
+  margin-bottom: 0;
+  font-family: 'Graduate';
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.faqHeader{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Graduate';
+}
+
+.headHeight{
+  height: 130px;
+}
+
+/*--------------------------------------------------------------*/
+/*Horizontal tablet, laptops, & desktops*/
+@media only screen and (min-width: 993px){
+
+  /*setting the background of the homepage below the navbar*/
+  #homeBackground {
+    background-image: url("images/genBackground1024.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    margin-top: 61px;
+  }
+
+  /*reserve a bike button styles*/
+  .reserveButton{
+    margin-top: 20%;
+    color: #972563;
+    background-color: black;
+    opacity: .8;
+    border-color: black;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 10px;
+    font-family: 'Graduate';
+  }
+
+  .reserveButton:hover{
+    color: #0556a5;
+  }
+
+  #aboutBackground {
+    background-image: url("images/partyBike1024.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 61px;
+  }
+
+  .mapPic{
+    margin: 0 auto;
+    content:url("images/googleMap.png");
+    width: 1024px;
+  }
+
+}
+
+/*------------------------------------------------------------*/
+/*Verticl tablet*/
+@media only screen and (min-width: 751px) and (max-width: 992px){
+  /*setting the background of the homepage below the navbar*/
+  #homeBackground {
+    background-image: url("images/homeBackgroundVerts.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    margin-top: 61px;
+  }
+
+  /*reserve a bike button styles*/
+  .reserveButton{
+    margin-top: 50%;
+    color: #972563;
+    background-color: black;
+    opacity: .8;
+    border-color: black;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 10px;
+    font-family: 'Graduate';
+  }
+
+  .reserveButton:hover{
+    color: #0556a5;
+  }
+
+  #aboutBackground {
+    background-image: url("images/aboutBackgroundVerts.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 61px;
+  }
+
+  .aboutTextBox{
+    background-color: #ebeced;
+    border-radius: 10px;
+    width: 50%;
+    opacity: .7;
+    margin: 0 auto;
+  }
+
+  .mapPic{
+    margin: 0 auto;
+    content:url("images/googleMapVertTab.png");
+    width: 768px;
+  }
+
+  .faqWindow{
+    background-color: #666666;
+    width: 90%;
+    display: inline-block;
+    margin-top: 86px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+  }
+
+}
+/*------------------------------------------------------------*/
+/*Horizontal phone*/
+@media only screen and (min-width: 601px) and (max-width: 750px){
+
+  /*setting the background of the homepage below the navbar*/
+  #homeBackground {
+    background-image: url("images/genBackground1024.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    margin-top: 61px;
+  }
+
+  /*reserve a bike button styles*/
+  .reserveButton{
+    margin-top: 25%;
+    color: #972563;
+    background-color: black;
+    opacity: .8;
+    border-color: black;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 10px;
+    font-family: 'Graduate';
+  }
+
+  .reserveButton:hover{
+    color: #0556a5;
+  }
+
+  #aboutBackground {
+    background-image: url("images/partyBike1024.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 61px;
+  }
+
+  .aboutTextBox{
+    background-color: #ebeced;
+    border-radius: 10px;
+    width: 75%;
+    opacity: .7;
+    margin: 0 auto;
+  }
+
+  .mapPic{
+    margin: 0 auto;
+    content:url("images/googleMapVertTab.png");
+    width: 670px;
+  }
+
+  .faqWindow{
+    background-color: #666666;
+    width: 90%;
+    display: inline-block;
+    margin-top: 86px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+  }
+
+  .faqContainer{
+    background-color: #666666;
+    width: 90%;
+    padding: 15px;
+    vertical-align: top;
+  }
+
+  .mapPic{
+    margin: 0 auto;
+    content:url("images/googleMapVertTab.png");
+    width: 570px;
+  }
+
+}
+
+/*----------------------------------------------------------*/
+/*Vertical phone*/
+@media only screen and (max-width: 600px){
+  /*setting the background of the homepage below the navbar*/
+  #homeBackground {
+    background-image: url("images/homeBackgroundVerts.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    margin-top: 69px;
+  }
+
+  /*reserve a bike button styles*/
+  .reserveButton{
+    margin-top: 25%;
+    color: #972563;
+    background-color: black;
+    opacity: .8;
+    border-color: black;
+    height: 60px;
+    font-size: 26px;
+    border-radius: 10px;
+    font-family: 'Graduate';
+  }
+
+  .reserveButton:hover{
+    color: #0556a5;
+  }
+
+  .rideHeader{
+    margin-top: 25%;
+  }
+
+  .teamHeader{
+    text-align: center;
+    font-family: 'Graduate';
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  #aboutBackground {
+    background-image: url("images/aboutBackgroundVerts.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 69px;
+  }
+
+  .aboutTextBox{
+    background-color: #ebeced;
+    border-radius: 10px;
+    width: 90%;
+    opacity: .7;
+    margin: 0 auto;
+  }
+
+  .mapPic{
+    margin: 0 auto;
+    content:url("images/googleMapVerts.png");
+  }
+
+  .faqWindow{
+    background-color: #666666;
+    width: 90%;
+    display: inline-block;
+    margin-top: 86px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+  }
+
+  .faqContainer{
+    background-color: #666666;
+    width: 90%;
+    padding: 15px;
+    vertical-align: top;
+  }
+
+}

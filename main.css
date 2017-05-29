@@ -1,0 +1,240 @@
+/*General styles*/
+.genFont{
+  font-family: 'Graduate';
+}
+
+.paraFont{
+  font-size: 18px;
+  padding: 0 15px 15px 15px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.construction{
+  text-align: center;
+  font-family: 'Graduate';
+}
+
+/*setting the navbar styles*/
+body{
+  margin: 0;
+}
+
+.navigationBar{
+  height: 125px;
+  background-color: black;
+  width: 100%;
+}
+
+/*this is the ul*/
+.navList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: inline-block;
+}
+
+li{
+  float: left;
+}
+
+/*this is li a*/
+.navFont{
+  font-family: 'Graduate';
+  font-size: 22px;
+  display: block;
+  color: #d9d9d9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    color: #972563;
+}
+
+.teamNav{
+  line-height: 25px;
+}
+
+/*setting the background of the homepage below the navbar*/
+#homeBackground {
+  background-image: url("images/genBackground1024.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  margin-top: 61px;
+}
+
+/*reserve a bike button styles*/
+.reserveButton{
+  margin-top: 325px;
+  color: #972563;
+  background-color: black;
+  opacity: .8;
+  border-color: black;
+  height: 60px;
+  font-size: 32px;
+  border-radius: 10px;
+  font-family: 'Graduate';
+}
+
+.reserveButton:hover{
+  color: #0556a5;
+}
+
+/*setting the background of the about page below the navbar*/
+#aboutBackground {
+  background-image: url("images/partyBike1024.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  padding-top: 150px;
+  margin-top: 61px;
+}
+
+.aboutHeading{
+  padding-top: 15px;
+}
+
+.aboutTextBox{
+  background-color: #ebeced;
+  border-radius: 10px;
+  width: 40%;
+  opacity: .7;
+  margin: 0 auto;
+}
+
+/*team high ride page styles*/
+.teamBackgroundColor{
+  background-color: #EAEAEA;
+}
+
+.teamRow{
+  text-align: center;
+  background-color: #EAEAEA;
+}
+
+.teamPics{
+  display: inline-block;
+  margin: 10px;
+}
+
+/*h1 for team ride high page*/
+.teamHeader{
+  text-align: center;
+  font-family: 'Graduate';
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 6%;
+}
+
+/*Contact page styles*/
+.contact{
+  text-align: center;
+  vertical-align: top;
+}
+
+.questions{
+  background-color: #666666;
+  width: 350px;
+  border-radius: 10px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.contactInfo{
+  display: inline-block;
+  margin-top: 86px;
+}
+
+form{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.textArea{
+  width: 98%;
+  height: 150px;
+}
+
+.questionsButton{
+  height: 35px;
+  width: 125px;
+  background-color: black;
+  border-color: black;
+  opacity: .6;
+  border-radius: 5px;
+  font-family: 'Graduate';
+  color: #972563;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.questionsButton:hover{
+  color: #0556a5;
+}
+
+.info{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/*FAQ page style*/
+.faqWindow{
+  background-color: #666666;
+  width: 800px;
+  display: inline-block;
+  margin-top: 86px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.faqRow{
+  text-align: center;
+}
+
+.faqContainer{
+  background-color: #666666;
+  width: 200px;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.faqFont{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faqTitle{
+  margin-bottom: 0;
+}
+
+.faqHeader{
+  font-weight: bold;
+}
+
+.mapPic{
+  text-align: center;
+  background-color: #EAEAEA;
+}
+
+.socialMedia{
+  text-align: center;
+}
+
+.facebook{
+  margin: 7px 7px 7px 0px;
+}
+.insta{
+  margin: 7px;
+}
