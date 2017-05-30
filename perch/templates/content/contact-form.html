@@ -1,0 +1,16 @@
+<h2 class='teamHeader'><perch:content id="heading" type="text" label="Heading" help="Enter title of section here" /></h3>
+<perch:form id="form-contact" method="post" app="perch_forms" role="form">
+  Name: <br>
+  <perch:input class="white" id="name" type="text" required="true" label="Name" /><br>
+
+  Email: <br>
+  <perch:input class="white" id="email" type="email" required="true" label="Email" /><br>
+
+  Message: <br>
+  <perch:input class="textArea white" id="message" type="textarea" required="true" label="Message" /><br>
+    <perch:input class="questionsButton" type="submit" id="submit" value="Send" />
+
+  <perch:success>
+    <perch:content id="success" type="textarea" size="l" label="Thank you message" markdown="true" editor="simplemde" required="true" />
+  </perch:success>
+</perch:form>
