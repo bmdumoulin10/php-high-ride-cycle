@@ -33,7 +33,7 @@
       <div class='navigationBar'>
         <div>
 
-          <a href="index.html"><img src="images/blackLogoNav.jpg" alt="High Ride Cycle Logo" /></a>
+          <a href="index.php"><img src="images/blackLogoNav.jpg" alt="High Ride Cycle Logo" /></a>
           <a href="#" data-activates="side-menu" class="button-collapse right"><i class="material-icons">menu</i></a>
           <ul id='nav-mobile' class='navList hide-on-med-and-down'>
             <li><a class='navFont' href="index.php">Home</a></li>
@@ -48,12 +48,12 @@
             <li><div class='center'>
                 <img src="images/blackLogoNav.jpg" alt="High Ride Cycle Logo" />
               </div></li>
-            <li><a class='navFont grey-text text-lighten-2' href="index.html">Home</a></li>
-            <li><a class='navFont grey-text text-lighten-2' href="ride.html">Ride With Us</a></li>
-            <li><a class='navFont grey-text text-lighten-2' href="about.html">About</a></li>
-            <li><a class='navFont grey-text text-lighten-2' href="team.html">Team High Ride</a></li>
-            <li><a class='navFont grey-text text-lighten-2' href="contact.html">Contact</a></li>
-            <li><a class='navFont grey-text text-lighten-2' href="faq.html">FAQ</a></li>
+            <li><a class='navFont grey-text text-lighten-2' href="index.php">Home</a></li>
+            <li><a class='navFont grey-text text-lighten-2' href="ride.php">Ride With Us</a></li>
+            <li><a class='navFont grey-text text-lighten-2' href="about.php">About</a></li>
+            <li><a class='navFont grey-text text-lighten-2' href="team.php">Team High Ride</a></li>
+            <li><a class='navFont grey-text text-lighten-2' href="contact.php">Contact</a></li>
+            <li><a class='navFont grey-text text-lighten-2' href="faq.php">FAQ</a></li>
           </ul>
 
         </div>
@@ -65,7 +65,7 @@
     <div id="homeBackground">
       <div class="row">
         <div class=""></div>
-        <div class=""><a href="ride.html"><button type="button" class='reserveButton center'>Reserve A Bike</button></a></div>
+        <div class=""><a href="ride.php"><button type="button" class='reserveButton center'>Reserve A Bike</button></a></div>
         <div class=""></div>
       </div>
     </div>
