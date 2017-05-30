@@ -66,7 +66,5 @@
   <body class='teamBackgroundColor'>
     <!-- <h1 class="teamHeader rideHeader">This page is currently under construction.</h1> -->
     <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="9f355656f16" data-widget-version="0.1"></healcode-widget>
-
-    <healcode-widget data-type="registrations" data-widget-partner="object" data-widget-id="9f183196f16" data-widget-version="0.1"></healcode-widget>
   </body>
 </html>
