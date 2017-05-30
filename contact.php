@@ -65,7 +65,7 @@
     <div class="contact">
       <div class="questions contactInfo">
         <h2 class='teamHeader'>Contact Information</h3>
-        <p class='info'>Phone: <?php perch_content('Phone'); ?> <br><br>
+        <p class='info'><?php perch_content('Phone'); ?> <br><br>
           Email:<br> <?php perch_content('Email'); ?><br><br>
           Address: (Click for Directions)<br>
           <a href="https://www.google.com/maps/place/4433+W+29th+Ave+%23204,+Denver,+CO+80212/@39.758758,-105.0470387,17z/data=!3m1!4b1!4m5!3m4!1s0x876b876f9b2733cb:0xbf97de3d58088d50!8m2!3d39.758758!4d-105.04485" class='mapLink' target='_blank'><?php perch_content('Address'); ?></a> <br><br>
@@ -80,7 +80,7 @@
 
     </div>
     <div class="mapPic center">
-      
+
     </div>
   </body>
 </html>
