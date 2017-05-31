@@ -1,5 +1,5 @@
-<a class="modal-trigger" href="#modal1"><img src="<perch:content id="image" type="image" label="Profile Image" help="Upload an image for a team member" width="250px" height="250px" />" alt="<perch:content id="name" type="text" label="Full Name" />"></a>
-<div id="modal1" class="modal">
+<a class="modal-trigger" href="#<perch:content id="modal" type="text" label="Modal ID" />"><img src="<perch:content id="image" type="image" label="Profile Image" help="Upload an image for a team member" width="250px" height="250px" />" alt="<perch:content id="name" type="text" label="Full Name" />"></a>
+<div id="<perch:content id="modal" type="text" label="Modal ID" />" class="modal">
   <div class="modal-content">
     <h4 class="genFont"><perch:content id="name" type="text" label="Full Name" /></h4>
     <img src="<perch:content id="image" type="image" label="Profile Image" help="Upload an image for a team member" width="250px" height="250px" />" alt="<perch:content id="name" type="text" label="Full Name" />">
