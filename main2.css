@@ -58,6 +58,17 @@ li{
   margin-top: 10%;
 }
 
+.priceHeader{
+  text-align: center;
+  font-family: 'Graduate';
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.priceList{
+  display: grid;
+}
+
 .aboutHeading{
   padding-top: 15px;
 }
@@ -65,9 +76,11 @@ li{
 .aboutTextBox{
   background-color: #ebeced;
   border-radius: 10px;
-  width: 40%;
+  width: 50%;
   opacity: .7;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .teamPics{
@@ -221,7 +234,7 @@ form{
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 15px;
     margin-top: 61px;
   }
 
