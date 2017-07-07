@@ -81,6 +81,7 @@ li{
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  overflow-y: scroll;
 }
 
 .teamPics{
@@ -294,6 +295,7 @@ form{
     width: 50%;
     opacity: .7;
     margin: 0 auto;
+    overflow-y: scroll;
   }
 
   .mapPic{
@@ -361,6 +363,8 @@ form{
     width: 75%;
     opacity: .7;
     margin: 0 auto;
+    height: 250px;
+    overflow-y: scroll;
   }
 
   .mapPic{
@@ -452,6 +456,8 @@ form{
     width: 90%;
     opacity: .7;
     margin: 0 auto;
+    height: 450px;
+    overflow-y: scroll;
   }
 
   .mapPic{
