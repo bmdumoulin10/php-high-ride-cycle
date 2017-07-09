@@ -67,17 +67,17 @@
         <h1 class='teamHeader aboutHeading'>About</h1>
         <p class='paraFont'><?php perch_content('About'); ?></p>
         <h1 class='priceHeader'>Pricing</h1>
-        <ul class='priceList'>
-          <li><?php perch_content('Price1'); ?></li>
-          <li><?php perch_content('Price2'); ?></li>
-          <li><?php perch_content('Price3'); ?></li>
-          <li><?php perch_content('Price4'); ?></li>
-          <li><?php perch_content('Price5'); ?></li>
-          <li><?php perch_content('Price6'); ?></li>
-          <li><?php perch_content('Price7'); ?></li>
-          <li><?php perch_content('Price8'); ?></li>
-          <li><?php perch_content('Price9'); ?></li>
-          <li><?php perch_content('Price10'); ?></li>
+        <ul>
+          <?php perch_content('Price1'); ?>
+          <?php perch_content('Price2'); ?>
+          <?php perch_content('Price3'); ?>
+          <?php perch_content('Price4'); ?>
+          <?php perch_content('Price5'); ?>
+          <?php perch_content('Price6'); ?>
+          <?php perch_content('Price7'); ?>
+          <?php perch_content('Price8'); ?>
+          <?php perch_content('Price9'); ?>
+          <?php perch_content('Price10'); ?>
         </ul>
       </div>
 
