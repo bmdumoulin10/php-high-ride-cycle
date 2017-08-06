@@ -26,7 +26,7 @@
   });
   </script>
   <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
   <header>
@@ -118,6 +118,62 @@
 
       <div class='teamPics'>
         <?php perch_content('Team12'); ?>
+      </div>
+    </div>
+
+    <div class="teamBackgroundColor center">
+      <div class='teamPics'>
+        <?php perch_content('Team13'); ?>
+      </div>
+
+      <div class='teamPics'>
+        <?php perch_content('Team14'); ?>
+      </div>
+
+      <div class='teamPics'>
+        <?php perch_content('Team15'); ?>
+      </div>
+    </div>
+
+    <div class="teamBackgroundColor center">
+      <div class='teamPics'>
+        <?php perch_content('Team16'); ?>
+      </div>
+
+      <div class='teamPics'>
+        <?php perch_content('Team17'); ?>
+      </div>
+
+      <div class='teamPics'>
+        <?php perch_content('Team18'); ?>
+      </div>
+    </div>
+
+    <div class="teamBackgroundColor center">
+      <div class='teamPics'>
+        <?php perch_content('Team19'); ?>
+      </div>
+
+      <div class='teamPics'>
+        <?php perch_content('Team20'); ?>
+      </div>
+
+      <div class='teamPics'>
+        <?php perch_content('Team21'); ?>
+      </div>
+    </div>
+
+    <div class="teamBackgroundColor center">
+      <div class='teamPics'>
+        <?php perch_content('Team22'); ?>
+      </div>
+
+      <div class='teamPics'>
+        <?php perch_content('Team23'); ?>
+      </div>
+
+      <div class='teamPics'>
+        <?php perch_content('Team24'); ?>
       </div>
     </div>
 
