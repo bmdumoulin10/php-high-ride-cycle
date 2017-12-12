@@ -22,7 +22,15 @@
       zen.src = 'https://widget.zenrez.com/business/59fa4ea3c912590011af0124';
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(zen, s);
-    })(); 
+    })();
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103114969-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-103114969-1');
   </script>
   <!-- Compiled and minified JQuery -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
